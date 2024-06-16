@@ -10,3 +10,8 @@
 ├── pytest.ini
 ├── README.md
 └── requirements.txt
+
+## execution testing
+```
+pytest -k test_video
+```
