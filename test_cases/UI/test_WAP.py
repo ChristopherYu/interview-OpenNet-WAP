@@ -32,6 +32,12 @@ def _is_video_playing(driver: WebDriver) -> bool:
 
 class TestTwitch:
     def test_video(self, driver: WebDriver) -> None:
+        """
+        Tests video playing.
+        :param driver: WebDriver
+        :return None:
+        """
+
         # step 1 : go to twitch
         driver.get('https://m.twitch.tv')
         assert driver.title == 'Twitch'
